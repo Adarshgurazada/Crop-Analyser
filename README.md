@@ -105,24 +105,18 @@ This repository includes the following Python scripts:
 
 ## Dependencies
 
-*   Python 3.x
-*   TensorFlow (>= 2.x)
-*   Keras
-*   NumPy
-*   Tkinter (usually comes with Python, for file dialog)
-*   Pillow (PIL) (for optional image display in GUI)
+*   Refer the requirements[requirements.txt]
 
 **Installation:**
 
 1.  **Create a virtual environment (recommended):**
     ```bash
     python -m venv venv
-    source venv/bin/activate  # On Linux/macOS
-    venv\Scripts\activate  # On Windows
+    venv\Scripts\activate 
     ```
 2.  **Install dependencies:**
     ```bash
-    pip install tensorflow numpy Pillow
+    pip install -r requirements.txt
     ```
 
 ## File Structure
