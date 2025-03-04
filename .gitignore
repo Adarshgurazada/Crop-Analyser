@@ -1,0 +1,7 @@
+/venv
+/test
+/train
+/validation
+/data
+/.vscode
+/__pycache__
